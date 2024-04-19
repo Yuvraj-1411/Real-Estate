@@ -46,7 +46,7 @@ export default function SignUp() {
   };
 
   return (
-    <div className="h-[100vh] items-center flex justify-center px-5 lg:px-0">
+    <div className="h-[90vh] items-center flex justify-center px-5 lg:px-0">
       <div className="max-w-screen-xl bg-white border shadow sm:rounded-lg flex justify-center flex-1">
         <div className="flex-1 bg-blue-900 text-center hidden md:flex">
           <div
