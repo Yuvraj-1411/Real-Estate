@@ -1,6 +1,7 @@
 // import React from "react";
 import { Link,useNavigate } from "react-router-dom";
 import { useState } from "react";
+import OAuth from "../components/OAuth";
 
 
 export default function SignUp() {
@@ -103,7 +104,8 @@ export default function SignUp() {
                     </svg>
                     <span className="ml-3">{ loading ? 'Loading...':'Sign Up'}</span>
                   </button>
-                  <p className="mt-6 text-xs text-gray-600 text-center">
+                  <OAuth/>
+                  <p className="mt-6 text-base text-gray-600 text-center">
                     Already have an account?{" "}
                     <Link to={'/sign-in'}>
                       <span className="text-blue-900 font-semibold">

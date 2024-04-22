@@ -3,6 +3,7 @@ import { Link,useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { signInFailure, signInStart, signInSuccess } from "../redux/user/userSlice";
+import OAuth from "../components/OAuth";
 
 export default function SignIn() {
   const [formData, setFormData] = useState({});
@@ -100,7 +101,8 @@ export default function SignIn() {
                     </svg>
                     <span className="ml-3">{ loading ? 'Loading...':'Sign In'}</span>
                   </button>
-                  <p className="mt-6 text-xs text-gray-600 text-center">
+                  <OAuth/>
+                  <p className=" text-base mt-6 text-xs text-gray-600 text-center">
                      New User?{" "}
                     <Link to={'/sign-up'}>
                       <span className="text-blue-900 font-semibold">
