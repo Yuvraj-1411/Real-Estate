@@ -30,7 +30,7 @@ export const signin = async (req, res, next) => {
     //do no show password to user
     const { password: pass, ...rest } = validUser._doc;
 
-    res.cookie("acces_token", token, { httpOnly: true }).status(200).json(rest);
+    res.cookie("access_token", token, { httpOnly: true }).status(200).json(rest);
   } catch (error) {
     next(error);
   }
