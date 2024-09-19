@@ -67,7 +67,6 @@ export default function Home() {
           Let's get started...
         </Link>
       </div>
-
       {/* swiper */}
       <Swiper navigation>
         {offerListings &&
