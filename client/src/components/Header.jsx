@@ -25,8 +25,8 @@ export default function Header() {
   }, [location.search]);
 
   return (
-    <header className='bg-gray-900 shadow-md'>
-      <div className='flex justify-between items-center max-w-6xl mx-auto p-3'>
+    <header className='bg-gray-800 shadow-md '>
+      <div className='flex justify-between items-center max-w-6xl mx-auto p-3 '>
         <Link to='/'>
           <h1 className='font-bold text-lg sm:text-2xl flex'>
             <span className='text-white'>Anonymous</span>

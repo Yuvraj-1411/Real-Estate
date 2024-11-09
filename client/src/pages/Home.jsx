@@ -49,7 +49,7 @@ export default function Home() {
   return (
     <div className="bg-gray-900 text-white min-h-screen">
       {/* Hero Section */}
-      <div className="relative w-full h-screen bg-gray-700">
+      <div className="relative w-full h-screen bg-sky-950">
         <div className="absolute inset-0 z-10 bg-opacity-60 flex flex-col justify-center items-center text-center">
           <h1 className="text-white text-4xl lg:text-7xl font-extrabold drop-shadow-lg">
             Find Your Next Perfect Place
